@@ -56,7 +56,6 @@ Did you connect with your own SSH client or with EC2 Instance Connect?
 Paste the commands you ran to install the web server and create `index.html`:
 
 ```bash
-exit
 sudo dnf update -y
 sudo dnf install nginx -y
 echo "<h1>Welcome to the EC2 Challenge</h1>" | sudo tee /usr/share/nginx/html/index.html
